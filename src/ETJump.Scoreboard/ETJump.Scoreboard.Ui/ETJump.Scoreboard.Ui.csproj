@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefaultItemExcludes>node_modules/**;$(DefaultItemExcludes)</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="src\api\RecordApi.ts">
+      <CustomToolNamespace>..\ETJump.Scoreboard.Api\Controllers\RecordController.cs</CustomToolNamespace>
+    </None>
+    <None Update="src\criteria\RecordCriteria.ts">
+      <CustomToolNamespace>..\ETJump.Scoreboard.Core\QueryCriteria\RecordCriteria.cs</CustomToolNamespace>
+    </None>
+    <None Update="src\models\RecordModel.ts">
+      <CustomToolNamespace>..\ETJump.Scoreboard.Api\Models\RecordModel.cs</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+
+</Project>

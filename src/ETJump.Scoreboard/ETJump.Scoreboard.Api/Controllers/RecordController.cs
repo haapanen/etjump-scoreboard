@@ -24,10 +24,22 @@ namespace ETJump.Scoreboard.Api.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet("{id}")]
+        public RecordModel GetRecord(int id)
+        {
+            return new RecordModel();
+        }
+
         [HttpGet]
         public IEnumerable<RecordModel> GetRecords(RecordCriteria criteria)
         {
             return _recordService.GetRecords(criteria).Select(_mapper.Map<RecordModel>);
+        }
+
+        [HttpPut("{id}")]
+        public RecordModel Update(int id, [FromBody]RecordModel model)
+        {
+            return new RecordModel();
         }
     }
 }

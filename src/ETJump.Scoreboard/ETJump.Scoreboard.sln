@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.Scoreboard.Core", "ETJump.Scoreboard.Core\ETJump.Scoreboard.Core.csproj", "{6E46A946-187A-4721-B804-4A89CDD6D4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Scoreboard.Core", "ETJump.Scoreboard.Core\ETJump.Scoreboard.Core.csproj", "{6E46A946-187A-4721-B804-4A89CDD6D4E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{19AC3298-D49B-41CF-B92B-6D8429EE26EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.Scoreboard.SqlAdapter", "ETJump.Scoreboard.SqlAdapter\ETJump.Scoreboard.SqlAdapter.csproj", "{5B343F8D-76CE-4486-AE63-E89A599579CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Scoreboard.SqlAdapter", "ETJump.Scoreboard.SqlAdapter\ETJump.Scoreboard.SqlAdapter.csproj", "{5B343F8D-76CE-4486-AE63-E89A599579CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.Scoreboard.Api", "ETJump.Scoreboard.Api\ETJump.Scoreboard.Api.csproj", "{0F8BBC1E-4251-473C-8348-D29E78B194D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Scoreboard.Api", "ETJump.Scoreboard.Api\ETJump.Scoreboard.Api.csproj", "{0F8BBC1E-4251-473C-8348-D29E78B194D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.Scoreboard.Utilities", "ETJump.Scoreboard.Utilities\ETJump.Scoreboard.Utilities.csproj", "{A87ADFC6-F324-4B3B-A09D-A34AC54D18CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETJump.Scoreboard.Utilities", "ETJump.Scoreboard.Utilities\ETJump.Scoreboard.Utilities.csproj", "{A87ADFC6-F324-4B3B-A09D-A34AC54D18CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETJump.Scoreboard.Ui", "ETJump.Scoreboard.Ui\ETJump.Scoreboard.Ui.csproj", "{73EAA02D-7740-4C62-8A15-B204ECDCAABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{A87ADFC6-F324-4B3B-A09D-A34AC54D18CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A87ADFC6-F324-4B3B-A09D-A34AC54D18CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A87ADFC6-F324-4B3B-A09D-A34AC54D18CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EAA02D-7740-4C62-8A15-B204ECDCAABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EAA02D-7740-4C62-8A15-B204ECDCAABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EAA02D-7740-4C62-8A15-B204ECDCAABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EAA02D-7740-4C62-8A15-B204ECDCAABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5B343F8D-76CE-4486-AE63-E89A599579CC} = {19AC3298-D49B-41CF-B92B-6D8429EE26EF}
 		{0F8BBC1E-4251-473C-8348-D29E78B194D2} = {19AC3298-D49B-41CF-B92B-6D8429EE26EF}
+		{73EAA02D-7740-4C62-8A15-B204ECDCAABA} = {19AC3298-D49B-41CF-B92B-6D8429EE26EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E4156C4-78C6-4D78-928C-5DA234B963BE}
